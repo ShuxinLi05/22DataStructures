@@ -2,7 +2,6 @@ package com.company;
 
 public class BinTree <T>{
     public Node<T> root;
-
     public BinTree() {}
 
     public Node populateNextLeft(Node root) {

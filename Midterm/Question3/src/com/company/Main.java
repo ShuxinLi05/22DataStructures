@@ -14,6 +14,7 @@ public class Main {
         valuesInsideOfRange(list, node.left);
         list.add(node.data);
         valuesInsideOfRange(list, node.right);
+
     }
 
     private static Node<Integer> getBST(){

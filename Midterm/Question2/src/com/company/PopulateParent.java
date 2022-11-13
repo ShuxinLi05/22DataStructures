@@ -15,7 +15,6 @@ public class PopulateParent <T>{
             root.right.parent = root;
             PopulateParent(root.right);
         }
-
     }
 
 }

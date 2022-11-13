@@ -8,7 +8,6 @@ public class LinkList {
     public LinkList() {
         head = null;
     }
-
     public Node insert(Integer data, Node root){
         Node newNode = new Node(data);
         if (head == null){
